@@ -53,7 +53,7 @@ var I18n = require('react-native-i18n')
 // Support fallbacks so en-US & en-BR both use en
 I18n.fallbacks = true
 
-import Translations from './lib/Translations_zh'
+import Translations from './lib/Translations'
 I18n.translations = Translations
 
 /**
